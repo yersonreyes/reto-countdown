@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.clock-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--grey);
+  border-radius: 5px;
+  width: 58px;
+  height: 68px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.clock-day {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    gap: 1.5rem;
+  }
+
+  .clock-number {
+    border-radius: 16px;
+    width: 182px;
+    height: 214px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 128px;
+    line-height: 150px;
+  }
+
+  .clock-day {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+  }
+}

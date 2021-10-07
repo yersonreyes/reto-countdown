@@ -1,0 +1,19 @@
+@import "./wrapper.css";
+@import "./container.css";
+
+:root {
+  --white: #fffffe;
+  --grey: #333333;
+  --black: #000000;
+}
+
+body {
+  margin: 0;
+  color: var(--white);
+  height: 100vh;
+  background-image: url(../images/desktop-countdown.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
